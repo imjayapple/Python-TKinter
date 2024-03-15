@@ -8,7 +8,11 @@ root = customtkinter.CTk()
 root.geometry("500x350")
 
 def login():
-    print("Test")
+    username = input("Username: ")
+    password = input("Password: ")
+
+    # Assume we have a database of valid usernames & passwords
+    valid_users =
 
 font = customtkinter.CTkFont(family="Arial", weight="normal", slant="italic")
 
