@@ -12,7 +12,16 @@ def login():
     password = input("Password: ")
 
     # Assume we have a database of valid usernames & passwords
-    valid_users =
+    valid_users = ["user1", "user2", "user3"]
+    valid_passwords = ["pass1", "pass2", "pass3"]
+
+    if username in valid_users and valid_passwords == valid_passwords[valid_users.index(username)]:
+        print("Login Successful")
+        # Add code here to redirect to the main application upon successful login
+        
+    else:
+        print("Invalid username or password")
+        # Add code to handle incorrect login attempts here
 
 font = customtkinter.CTkFont(family="Arial", weight="normal", slant="italic")
 
