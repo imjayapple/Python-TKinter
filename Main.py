@@ -23,7 +23,6 @@ def login():
         print("Invalid username or password")
         # Add code to handle incorrect login attempts here
 
-
 font = customtkinter.CTkFont(family="Arial", weight="normal", slant="italic")
 
 frame = customtkinter.CTkFrame(master=root)
